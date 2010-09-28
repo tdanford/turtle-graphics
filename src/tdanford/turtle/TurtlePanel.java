@@ -2,6 +2,7 @@ package tdanford.turtle;
 
 import java.util.*;
 import java.awt.*;
+import javax.swing.*;
 
 public class TurtlePanel extends JPanel { 
 	
@@ -52,9 +53,9 @@ class TurtleFrame extends JFrame {
 		super("Turtle");
 		panel = tp;
 		panel.setOpaque(true);
-		this.setContainer(panel);
+		this.setContentPane(panel);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		panel.setDefaultSize(new Dimension(500, 500));
+		panel.setPreferredSize(new Dimension(500, 500));
 
 		setVisible(true);
 		pack();
