@@ -7,7 +7,7 @@
 	<property name="build" location="build"/>
 	<property name="dist"  location="dist"/>
 	<property name="lib"  location="lib"/>
-	<property name="project"  location="turtle-graphics"/>
+	<property name="project"  value="turtle-graphics"/>
 
 	<target name="init">
 		<tstamp/>

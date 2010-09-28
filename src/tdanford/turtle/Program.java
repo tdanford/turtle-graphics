@@ -26,4 +26,8 @@ public class Program {
 	}
 
 	public int length() { return commands.size(); }
+
+	public Command getCommand(int i) { return commands.get(i); }
+
+	public Collection<Command> getCommands() { return new LinkedList<Command>(commands); }
 }

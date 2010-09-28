@@ -8,7 +8,7 @@ public class TurtleSettings {
 	public double plusHeading, minusHeading;
 
 	public TurtleSettings() { 
-		forwardDistance = 1.0;
+		forwardDistance = 10.0;
 		plusHeading = Math.PI / 2.0;
 		minusHeading = -Math.PI / 2.0;
 	}
